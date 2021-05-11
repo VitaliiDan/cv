@@ -1,0 +1,11 @@
+.singleWorkWrapper {
+  width: 80%;
+  border-bottom: 1px dashed #fff;
+  padding: 10px 0;
+  p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

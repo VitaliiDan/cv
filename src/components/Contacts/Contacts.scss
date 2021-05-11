@@ -1,0 +1,40 @@
+.contactWrapper {
+  width: 100%;
+  border-bottom: 1px dashed #fff;
+  color: #fff;
+}
+
+.nameSurname {
+  font-size: 50px;
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+
+.city {
+  text-align: center;
+}
+
+.telephoneWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.socialLinksWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.socialIcons {
+  width: 30px;
+  height: auto;
+  border-radius: 50%;
+}
