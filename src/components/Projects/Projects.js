@@ -17,7 +17,7 @@ const Projects = ({projectsTitle, projectDescription, hardSkillTitle}) => {
                     hardSkillTitle={hardSkillTitle}
                     projectTitle={'CV'}
                     tech={['React', 'SASS']}
-                    link={'#'}
+                    link={'https://github.com/VitaliiDan/cv'}
                     projectDescription={projectDescription.projectCV}
                 />
                 <Project
