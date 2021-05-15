@@ -12,6 +12,17 @@
     margin: 10px 0;
   }
 
+  h3 {
+    color: lightcoral;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    span {
+        margin: 0 5px;
+    }
+  }
+
   .techWrapper {
     display: flex;
     flex-direction: row;

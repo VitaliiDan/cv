@@ -7,10 +7,12 @@ import telegramico from '../../img/contact/telegramIco.jpeg'
 import viberico from '../../img/contact/viberIco.png'
 import mailico from '../../img/contact/mailIco.jpeg'
 
-const Contacts = ({name, city}) => {
+const Contacts = ({name, city, myPosition}) => {
     return (
         <div className='contactWrapper'>
             <h1 className='nameSurname'> {name} </h1>
+            <h2 className='myPosition'>{myPosition}</h2>
+            <h2 className='position'>junior/trainee JavaScript/React front-end developer</h2>
             <h2 className='city'>{city}</h2>
             <div className='socialLinksWrapper'>
                 <a
@@ -27,13 +29,6 @@ const Contacts = ({name, city}) => {
                 ><img className='socialIcons' src={ghico} alt="github"/>
                 </a>
                 <a
-                    href="https://www.facebook.com/if.dir.dv"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <img className='socialIcons' src={fbico} alt="facebook"/>
-                </a>
-                <a
                     href="mailto:if.dir.dv@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -45,7 +40,7 @@ const Contacts = ({name, city}) => {
                 <img className='socialIcons' src={telico} alt="phone number"/>
                 <img className='socialIcons' src={telegramico} alt="telegram number"/>
                 <img className='socialIcons' src={viberico} alt="viber number"/>
-                <h3>+48 500 109 279</h3>
+                <a className='telephone' href='tel:+48500109279'>+48 500 109 279</a>
             </div>
         </div>
     )

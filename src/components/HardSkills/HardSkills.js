@@ -12,25 +12,36 @@ const HardSkills = ({hardSkillTitle}) => {
     return (
             <div className='hardSkillsWrapper'>
                 <h1> {hardSkillTitle} </h1>
+                <h3>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>SASS</span>
+                    <span>JavaScript</span>
+                    <span>React</span>
+                    <span>GIT</span>
+                    <span>Firebase</span>
+                    <span>SCRUM</span>
+                </h3>
+
                 <div className='techWrapper'>
-                    <img src={cssico} alt="css icon"/>
                     <img src={htmlico} alt="html icon"/>
+                    <img src={cssico} alt="css icon"/>
+                    <img src={sicon} alt="sass icon"/>
                     <img
                         style={{width :'40px'}}
                         src={jsico}
                         alt="js icon"/>
-                    <img src={gitico} alt="git icon"/>
                     <img src={reactico} alt="react icon"/>
-                    <img src={sicon} alt="sass icon"/>
+                    <img src={gitico} alt="git icon"/>
+                    <img
+                        style={{width :'35px'}}
+                        src={firebaseicon}
+                        alt="firebase icon"/>
                     <img
                         style={{borderRadius: '50%'}}
                         src={scrumico}
                         alt="scrum icon"
                     />
-                    <img
-                        style={{width :'35px'}}
-                        src={firebaseicon}
-                        alt="firebase icon"/>
                 </div>
             </div>
 

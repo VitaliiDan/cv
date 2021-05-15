@@ -2,6 +2,7 @@
   width: 100%;
   border-bottom: 1px dashed #fff;
   color: #fff;
+  text-align: center;
 }
 
 .nameSurname {
@@ -10,9 +11,15 @@
   margin: 10px 0 20px 0;
 }
 
-.city {
-  text-align: center;
+.position {
+  margin-bottom: 20px;
 }
+
+.myPosition, .position {
+  color: lightcoral;
+}
+
+
 
 .telephoneWrapper {
   display: flex;
@@ -37,4 +44,11 @@
   width: 30px;
   height: auto;
   border-radius: 50%;
+}
+
+.telephone {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  width: auto;
 }

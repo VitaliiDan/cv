@@ -23,7 +23,7 @@ const Projects = ({projectsTitle, projectDescription, hardSkillTitle}) => {
                 <Project
                     hardSkillTitle={hardSkillTitle}
                     projectTitle={'NordFrost.PL'}
-                    tech={['React', 'Redux', 'FireBase', 'SASS']}
+                    tech={['React', 'Redux', 'FireBase', 'SASS', 'axios']}
                     link={'#'}
                     projectDescription={projectDescription.projectNordFrost}
                 />

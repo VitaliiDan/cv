@@ -18,6 +18,7 @@ export const Cv = (props) => {
             lang = {
                 name: data.name.pl,
                 city: data.city.pl,
+                myPosition: data.myPosition.pl,
                 softSkillsTitle: data.softSkillsTitle.pl,
                 softSkillsText: data.softSkillsText.pl,
                 hardSkillsTitle: data.hardSkillsTitle.pl,
@@ -41,6 +42,7 @@ export const Cv = (props) => {
             lang = {
                 name: data.name.en,
                 city: data.city.en,
+                myPosition: data.myPosition.en,
                 softSkillsTitle: data.softSkillsTitle.en,
                 softSkillsText: data.softSkillsText.en,
                 hardSkillsTitle: data.hardSkillsTitle.en,
@@ -64,6 +66,7 @@ export const Cv = (props) => {
             lang = {
                 name: data.name.ua,
                 city: data.city.ua,
+                myPosition: data.myPosition.ua,
                 softSkillsTitle: data.softSkillsTitle.ua,
                 softSkillsText: data.softSkillsText.ua,
                 hardSkillsTitle: data.hardSkillsTitle.ua,
@@ -87,6 +90,7 @@ export const Cv = (props) => {
             lang = {
                 name: data.name.ru,
                 city: data.city.ru,
+                myPosition: data.myPosition.ru,
                 softSkillsTitle: data.softSkillsTitle.ru,
                 softSkillsText: data.softSkillsText.ru,
                 hardSkillsTitle: data.hardSkillsTitle.ru,
@@ -122,7 +126,7 @@ export const Cv = (props) => {
                 </div>
 
                 <div className='rightSide'>
-                    <Contacts name={lang.name} city={lang.city}/>
+                    <Contacts name={lang.name} city={lang.city} myPosition={lang.myPosition}/>
                     <Projects
                         projectsTitle={lang.projectsTitle}
                         projectDescription={lang.projectDescription}
