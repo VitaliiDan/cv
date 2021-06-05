@@ -5,6 +5,10 @@
   perspective: 1000px;
   z-index: 3;
 
+  @media (max-width: 800px) {
+    width: 60%;
+  }
+
   &:hover .front {
     transform: rotateY(180deg);
   }
@@ -53,6 +57,10 @@
     img {
       border-radius: 50%;
       cursor: pointer;
+      @media (max-width: 800px) {
+        width: 30px;
+        height: 30px;
+      }
     }
   }
 }

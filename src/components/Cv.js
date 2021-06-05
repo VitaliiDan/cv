@@ -1,13 +1,13 @@
 import React from "react";
-import data from '../../store/store';
-import Avatar from "../Avatar/Avatar";
-import Contacts from "../Contacts/Contacts";
-import SoftSkills from "../SoftSkills/SoftSkills";
-import HardSkills from "../HardSkills/HardSkills";
-import Languages from "../Languages/Languages";
-import Projects from "../Projects/Projects";
-import Education from "../Education/Education";
-import WorkExperience from "../WorkExperience/WorkExperience";
+import data from '../store/store';
+import Avatar from "./Avatar";
+import Contacts from "./Contacts";
+import SoftSkills from "./SoftSkills";
+import HardSkills from "./HardSkills";
+import Languages from "./Languages";
+import Projects from "./Projects/Projects";
+import Education from "./Education";
+import WorkExperience from "./WorkExperience/WorkExperience";
 
 export const Cv = (props) => {
     let lang;
@@ -118,14 +118,10 @@ export const Cv = (props) => {
     if (lang) {
         draw = (
             <div className='cvWrapper'>
-                <div className='leftSide'>
                     <Avatar/>
                     <SoftSkills softSkillsTitle={lang.softSkillsTitle} softSkillsText={lang.softSkillsText}/>
                     <HardSkills hardSkillTitle={lang.hardSkillsTitle}/>
                     <Languages languagesTitle={lang.languagesTitle}/>
-                </div>
-
-                <div className='rightSide'>
                     <Contacts name={lang.name} city={lang.city} myPosition={lang.myPosition}/>
                     <Projects
                         projectsTitle={lang.projectsTitle}
@@ -140,7 +136,6 @@ export const Cv = (props) => {
                         workExpirienceTitle={lang.workExperienceTitle}
                         workExperience={lang.workExperience}
                     />
-                </div>
             </div>
         )
     } else {

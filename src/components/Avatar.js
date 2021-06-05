@@ -1,5 +1,5 @@
 import React from "react";
-import Ava from '../../img/cvAvatar.png';
+import Ava from '../img/cvAvatar.png';
 
 const Avatar = () => {
     return (

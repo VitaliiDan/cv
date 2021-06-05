@@ -7,12 +7,12 @@ const Education = ({educationTitle, education}) => {
             <ul>
                 <li>
                     <strong>2020 - 2021 - </strong>
-                    {education.codersLab}
+                    <span>{education.codersLab}</span>
                     <strong> JavaScript React Developer </strong>
                 </li>
                 <li>
                     <strong>2002 - 2008 - </strong>
-                    {education.university}
+                    <span>{education.university}</span>
                     <strong> Economical Cybernetics </strong>
                 </li>
             </ul>

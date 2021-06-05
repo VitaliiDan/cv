@@ -8,7 +8,7 @@ const data = {
     myPosition: {
         pl: 'Szukam pracy na stanowisko:',
         en: 'Looking for a job for a position:',
-        ua: 'Щукаю роботу на посаду:',
+        ua: 'Шукаю роботу на посаду:',
         ru: 'Ищу работу на должность:'
     },
     city: {
@@ -24,13 +24,10 @@ const data = {
         ru: 'Обо мне:'
     },
     softSkillsText: {
-        pl: '???',
-        en: '???',
-        ua: '???',
-        ru: 'В своей жизни я работал в разных компаниях, странах и в разных коллективах. Этот опыт развил во мне ' +
-            'способность приспосабливаться к окружающей обстановке и разбираться в людях. Люблю и умею работать в ' +
-            'команде и в случае необходимости могу ee возглавить и обеспечить высокую производительность. ' +
-            'Стрессоустойчив, комуникабелен, легко-обучаем.'
+        pl: 'W swoim życiu pracowałem w różnych firmach, krajach i w różnych zespołach. To doświadczenie rozwinęło we mnie umiejętność dostosowania się do otoczenia i rozumienia ludzi. Uwielbiam i umiem pracować w zespole, a w razie potrzeby potrafię go poprowadzić i zapewnić wysoką produktywność. Odporny na stres, towarzyski, łatwy do studij.',
+        en: 'In my life I have worked in different companies, countries and in different teams. This experience has developed in me the ability to adapt to the environment and understand people. I love and know how to work in a team and, if necessary, I can lead it and ensure high productivity. Stress-resistant, sociable, easy to train.',
+        ua: 'У своєму житті я працював в різних компаніях, країнах і в різних колективах. Цей досвід розвинув в мені здатність пристосовуватися до навколишнього оточення і розбиратися в людях. Люблю і вмію працювати в команді і в разі необхідності можу її очолити і забезпечити високу продуктивність. Стресостійкий, комунікабельний, легко вчуся.',
+        ru: 'В своей жизни я работал в разных компаниях, странах и в разных коллективах. Этот опыт развил во мне способность приспосабливаться к окружающей обстановке и разбираться в людях. Люблю и умею работать в команде и в случае необходимости могу ее возглавить и обеспечить высокую производительность. Стрессоустойчив, коммуникабелен, легко-обучаем.'
     },
     hardSkillsTitle: {
         pl: 'Technologie: ',
@@ -52,21 +49,21 @@ const data = {
     },
     projectDescription: {
         projectToDoList: {
-            pl: '???',
-            en: '???',
-            ua: '???',
-            ru: 'Достаточно стандартный проект для начинающего программиста, но я его делал для того, чтобы потренироваться работать с технологией Redux и Firebase ну и немного анимации.'
+            pl: 'Dość standardowy projekt dla początkującego programisty, ale zrobiłem to po to, aby poćwiczyć z technologią Context (Redux) i Firebase oraz trochę animacji.',
+            en: 'A fairly standard project for a novice programmer, but I did it in order to practice with the Context technology (Redux) and Firebase and a little animation.',
+            ua: 'Досить стандартний проект для програміста початківця, але я його зробив для того, щоб потренуватися з технологією Context (Redux) і Firebase ну і трохи анімації.',
+            ru: 'Достаточно стандартный проект для начинающего программиста, но я его делал для того, чтобы потренироваться с технологией Context (Redux) и Firebase ну и немного анимации.'
         },
         projectCV: {
-            pl: '???',
-            en: '???',
-            ua: '???',
-            ru: 'При помощи React-Route решение вопроса мультиязычноси сайта. Анимация при помощи SASS (CSS)'
+            pl: 'Korzystanie z React-Route, rozwiązanie problemu wielojęzyczności witryny. Animacja z SASS (CSS)',
+            en: 'Using React-Route, solving the issue of site multi-languages. Animation with SASS (CSS)',
+            ua: 'За допомогою React-Route вирішення питання багатомовності сайту. Анімація за допомогою SASS (CSS)',
+            ru: 'При помощи React-Route решение вопроса мультиязычности сайта. Анимация при помощи SASS (CSS)'
         },
         projectNordFrost: {
-            pl: '???',
-            en: '???',
-            ua: '???',
+            pl: 'Ten projekt działa i jest używany w firmie. Zawiera różnego rodzaju formularze i sprawdzanie poprawności danych. Zaprojektowany w celu automatyzacji procesów pracy w firmie.',
+            en: 'This project is working and is used in the company. Packed with all sorts of forms and data validation. Designed to automate work processes in a company.',
+            ua: 'Даний проект робочий і використовується в фірмі. Насичений всілякими формами і валідаціями даних. Призначений для автоматизації робочих процесів в компанії.',
             ru: 'Данный проект рабочий и используется в фирме. Насыщен всевозможными формами и валидацией данных. Предназначен для автоматизации рабочих процессов в компании.'
         }
     },
@@ -84,7 +81,7 @@ const data = {
             ru: '"IT-школа CodersLab"'
         },
         university: {
-            pl: '"Krivyi Rih National University"',
+            pl: '"Kryvyi Rih National University"',
             en: '"Kryvyi Rih National University"',
             ua: '"Криворізький національний університет"',
             ru: '"Криворожский национальный университет"'
@@ -223,7 +220,7 @@ const data = {
         ],
         ua: [
             {
-                period: '08.2019 - до тепер',
+                period: '08.2019 - дотепер',
                 company: '“NordFrost.PL Dystrybucja” Sp z o.o',
                 country: 'Місто: Варшава, Польща',
                 position: 'Аналітик комп’ютерних систем'
@@ -348,3 +345,4 @@ const data = {
     }
 }
 export default data;
+

@@ -1,8 +1,8 @@
 import React from "react";
-import PLIco from '../../img/lang/icon_PL.png';
-import ENIco from '../../img/lang/icon_EN.png';
-import UAIco from '../../img/lang/icon_UA.png';
-import RUIco from '../../img/lang/icon_RU.png';
+import PLIco from '../img/lang/icon_PL.png';
+import ENIco from '../img/lang/icon_EN.png';
+import UAIco from '../img/lang/icon_UA.png';
+import RUIco from '../img/lang/icon_RU.png';
 
 import {NavLink} from "react-router-dom";
 
@@ -14,7 +14,7 @@ export const Header = () => {
         border: '1px solid white'
     }
     return (
-        <nav>
+        <nav className='headerWrapper'>
             <NavLink
                 exact to='/lang/pl'
                 style={style}

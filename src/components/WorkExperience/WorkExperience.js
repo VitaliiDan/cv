@@ -17,7 +17,7 @@ const WorkExperience = ({workExpirienceTitle, workExperience}) => {
         draw = (
             <div className='experienceWrapper'>
                 <h1>{workExpirienceTitle}</h1>
-                {workExperience.map(el => <SingleWork singleWork={el}/>)}
+                {workExperience.map((el, index) => <SingleWork key={index} singleWork={el}/>)}
                 <button onClick={showModalHandler}>
                     <img src={arrowUp} alt="arrow UP"/>
                 </button>

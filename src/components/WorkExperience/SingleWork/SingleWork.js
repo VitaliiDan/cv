@@ -4,9 +4,10 @@ const SingleWork = ({singleWork}) => {
 
     return (
         <div className='singleWorkWrapper'>
-            <p><span>{singleWork.period}</span> <span>{singleWork.company}</span></p>
-            <p><span></span> <span>{singleWork.position}</span></p>
-            <p><span></span> <span>{singleWork.country}</span></p>
+            <p>{singleWork.period}</p>
+            <p>{singleWork.company}</p>
+            <p>{singleWork.position}</p>
+            <p>{singleWork.country}</p>
         </div>
     )
 };

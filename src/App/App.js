@@ -1,7 +1,6 @@
-import './App.scss';
-import {Header} from "../components/Header/Header";
+import {Header} from "../components/Header";
 import {Switch, Redirect, Route} from 'react-router-dom'
-import {Cv} from "../components/Cv/Cv";
+import {Cv} from "../components/Cv";
 
 function App() {
     return (

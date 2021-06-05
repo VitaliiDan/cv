@@ -1,18 +1,17 @@
 import React from "react";
-import inico from '../../img/contact/inIco.jpeg'
-import ghico from '../../img/contact/ghIco.jpeg'
-import fbico from '../../img/contact/fbIco.jpeg'
-import telico from '../../img/contact/telIco.jpeg'
-import telegramico from '../../img/contact/telegramIco.jpeg'
-import viberico from '../../img/contact/viberIco.png'
-import mailico from '../../img/contact/mailIco.jpeg'
+import inico from '../img/contact/inIco.jpeg'
+import ghico from '../img/contact/ghIco.jpeg'
+import telico from '../img/contact/telIco.jpeg'
+import telegramico from '../img/contact/telegramIco.jpeg'
+import viberico from '../img/contact/viberIco.png'
+import mailico from '../img/contact/mailIco.jpeg'
 
 const Contacts = ({name, city, myPosition}) => {
     return (
         <div className='contactWrapper'>
             <h1 className='nameSurname'> {name} </h1>
             <h2 className='myPosition'>{myPosition}</h2>
-            <h2 className='position'>junior/trainee JavaScript/React front-end developer</h2>
+            <h2 className='myPosition'>junior/trainee JavaScript/React front-end developer</h2>
             <h2 className='city'>{city}</h2>
             <div className='socialLinksWrapper'>
                 <a
