@@ -35,6 +35,10 @@ const Contacts = ({name, city, myPosition}) => {
                     <img className='socialIcons' src={mailico} alt="e-mail"/>
                 </a>
             </div>
+            <div className="socialLinksWrapper_forPrint">
+                <img className='socialIcons' src={ghico} alt="github"/>
+                <p> https://github.com/VitaliiDan </p>
+            </div>
             <div className='telephoneWrapper'>
                 <img className='socialIcons' src={telico} alt="phone number"/>
                 <img className='socialIcons' src={telegramico} alt="telegram number"/>

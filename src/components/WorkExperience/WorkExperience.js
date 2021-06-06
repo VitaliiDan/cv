@@ -4,7 +4,7 @@ import arrowDown from '../../img/arrows/arrowDown.png';
 import SingleWork from "./SingleWork/SingleWork";
 
 
-const WorkExperience = ({workExpirienceTitle, workExperience}) => {
+const WorkExperience = ({workExperienceTitle, workExperience}) => {
     const [showModal, setShowModal] = useState(false)
 
     const showModalHandler = () => {
@@ -16,7 +16,7 @@ const WorkExperience = ({workExpirienceTitle, workExperience}) => {
     if (showModal) {
         draw = (
             <div className='experienceWrapper'>
-                <h1>{workExpirienceTitle}</h1>
+                <h1>{workExperienceTitle}</h1>
                 {workExperience.map((el, index) => <SingleWork key={index} singleWork={el}/>)}
                 <button onClick={showModalHandler}>
                     <img src={arrowUp} alt="arrow UP"/>
@@ -26,7 +26,7 @@ const WorkExperience = ({workExpirienceTitle, workExperience}) => {
     } else {
         draw = (
             <div className='experienceWrapper'>
-                <h1>{workExpirienceTitle}</h1>
+                <h1>{workExperienceTitle}</h1>
                 <SingleWork singleWork={workExperience[0]}/>
                 <button onClick={showModalHandler}>
                     <img src={arrowDown} alt="arrow Down"/>
@@ -35,7 +35,15 @@ const WorkExperience = ({workExpirienceTitle, workExperience}) => {
         )
     }
 
-    return draw
+    return (
+     <>
+         {draw}
+         <div className='experienceWrapper_forPrint'>
+             <h1>{workExperienceTitle}</h1>
+             {workExperience.map((el, index) => <SingleWork key={index} singleWork={el}/>)}
+         </div>
+     </>
+    )
 }
 
 export default WorkExperience;

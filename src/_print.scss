@@ -1,0 +1,114 @@
+@media only print {
+  * {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none !important;
+  }
+
+  .appWrapper {
+    box-shadow: none;
+  }
+
+  .socialIcons {
+    width: 20px;
+  }
+
+  .cvWrapper {
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-areas: 'avatar contact contact'
+                        'softSkills softSkills softSkills'
+                        'lang hardSkills hardSkills'
+                        'education education education'
+                        'projects projects projects'
+                        'experiance experiance experiance';
+  }
+
+  .nameSurname {
+    font-size: 35px !important;
+  }
+
+  .myPosition, .city {
+    font-size: 20px;
+  }
+
+  .city {
+    margin-top: 10px;
+  }
+
+  .socialLinksWrapper {
+    display: none !important;
+  }
+
+  .telephoneWrapper {
+    img {
+      display: none;
+    }
+
+    img:nth-child(3) {
+      display: inline-block;
+    }
+
+    a {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .softSkillsWrapper {
+    margin-top: -25px;
+    h1, p {
+
+    }
+  }
+
+  .langWrapper {
+    justify-content: center !important;
+  }
+
+  .projectsWrapper {
+    margin-top: 20px;
+  }
+
+  .front {
+    //border: none !important;
+  }
+
+  .back {
+    display: none !important;
+  }
+
+  .experienceWrapper {
+    display: none !important;
+  }
+
+  .experienceWrapper_forPrint {
+    grid-area: experiance;
+    width: 100%;
+    margin-top: -30px;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+
+    h1 {
+      color: #157791;
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
+
+  .socialLinksWrapper_forPrint {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+}

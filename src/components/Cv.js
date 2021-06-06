@@ -133,7 +133,7 @@ export const Cv = (props) => {
                         education={lang.education}
                     />
                     <WorkExperience
-                        workExpirienceTitle={lang.workExperienceTitle}
+                        workExperienceTitle={lang.workExperienceTitle}
                         workExperience={lang.workExperience}
                     />
             </div>
